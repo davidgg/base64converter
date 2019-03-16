@@ -1,0 +1,16 @@
+%background-contain {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.ImageView {
+  text-align: center;
+
+  .image-base64 {
+    position: relative;
+    height: 20rem;
+    border: 1px solid #fff;
+    @extend %background-contain;
+  }
+}
